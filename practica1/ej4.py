@@ -13,7 +13,7 @@ c=sol[2]
 xx = np.array( [ 1 , 2 , 3 ] )
 yy = np.array( [ 1 , 2 , 0 ] )
 x = np.linspace( 0 , 4 , 100 ) #gene r a 100 puntos e q ui e s p a ci a d o s e n t r e 0 y 4 .
-f = lambda t : a*t **2+b* t+c #e s t o gene r a una f u n ci o n f de t .
+f = lambda t : a*t **2+b* t+c #es t o gene r a una f u n ci o n f de t .
 plt.plot( xx , yy , '*' )
 plt.plot( x , f ( x ) )
 plt.show()
